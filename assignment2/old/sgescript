@@ -1,0 +1,23 @@
+#!/bin/sh
+
+#$ -N dotproduct
+
+#$ -S /bin/sh
+
+#$ -cwd
+
+#$ -j y
+
+#$ -m be
+
+#$ -q datasci
+
+/bin/echo Running on host: `hostname`.
+/bin/echo In directory: `pwd`
+/bin/echo Starting on: `date`
+
+. /opt/modules/init/bash
+#module load cuda
+module load intel/compiler/2017.2.174
+
+/usr/bin/time -f %e -o time /home/s/sb2423/CS677/assignments/assignment2/dotproduct /home/s/sb2423/CS677/assignments/assignment2/testdata /home/s/sb2423/CS677/assignments/assignment2/testw_vector 3 3 0 8 > dotprod_output

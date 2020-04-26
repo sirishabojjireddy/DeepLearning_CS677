@@ -1,0 +1,8 @@
+Running on host: node416.
+In directory: /home/s/sb2423/CS677/assignments/assignment2
+Starting on: Mon Feb 17 11:14:29 EST 2020
+===============================================================================
+Found core file(s).  Contact arcs@njit.edu if you do not want these removed.
+-rw------- 1 sb2423 users 565248 Feb 17  2020 core.18335
+Delete "core.18335" succeded
+sge_job_epilog: Removed left over scratch directory  {/scratch/2213940.1.datasci}
