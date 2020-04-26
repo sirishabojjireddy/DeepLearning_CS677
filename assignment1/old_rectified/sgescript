@@ -1,0 +1,24 @@
+#!/bin/sh
+
+#$ -N dotproduct
+
+#$ -S /bin/sh
+
+#$ -cwd
+
+#$ -j y
+
+#$ -m be
+
+#$ -q datasci
+
+/bin/echo Running on host: `hostname`.
+/bin/echo In directory: `pwd`
+/bin/echo Starting on: `date`
+
+. /opt/modules/init/bash
+module load cuda
+
+#/usr/bin/time -f %e -o time /home/s/sb2423/CS677/assignments/assignment1/dotproduct /home/s/sb2423/CS677/assignments/assignment1/testdata /home/s/sb2423/CS677/assignments/assignment1/testw_vector 3 3 0 8 > dotprod_output
+
+/usr/bin/time -f %e -o dot_time_ ./dotproduct ../data/testdata ../data/testw_vector 3 3 > outputdot

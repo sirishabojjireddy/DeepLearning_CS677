@@ -1,0 +1,21 @@
+Put in values
+Rows= 3
+,Cols = 3
+,CUDA_DEVICE= 0
+, THREADS =8 
+Reading data has completed........
+Time for reading the data 0.000627
+Calculating time for memory allocation on GPU for the dataTime for memory allocation of the data 0.192055
+The time it took to allocate memory for the weights is 0.000010
+Calculating time for memory allocation on GPU for testvectortime for cudamalloc for result =0.000007
+Currently copying the data to the allocated memory in GPU
+Time for copying the data to the GPU 0.000029
+The time it took to copy the weights to the GPU is 0.000077
+The time it took for the kernel is 0.000034
+The dot product of the data and weights is 
+
+10.000000 
+6.000000 
+16.000000 
+
+Time it took to run the whole program is 0.180000
