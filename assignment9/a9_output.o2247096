@@ -1,0 +1,25 @@
+Running on host: node430.
+In directory: /home/s/sb2423/CS677/assignments/assignment9
+Starting on: Wed Apr 15 13:30:53 EDT 2020
+2020-04-15 13:31:06.702451: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-04-15 13:31:07.627822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+totalMemory: 15.90GiB freeMemory: 15.07GiB
+2020-04-15 13:31:07.805233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:81:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-04-15 13:31:07.805348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0, 1
+2020-04-15 13:31:18.763341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-15 13:31:18.763376: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 1 
+2020-04-15 13:31:18.763382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N N 
+2020-04-15 13:31:18.763387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 1:   N N 
+2020-04-15 13:31:18.807431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14615 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+2020-04-15 13:31:19.003560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 15167 MB memory) -> physical GPU (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:81:00.0, compute capability: 6.0)
+/afs/cad/linux/anaconda3.6/anaconda/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+/afs/cad/linux/anaconda3.6/anaconda/lib/python3.6/site-packages/keras/engine/training.py:975: UserWarning: Discrepancy between trainable weights and collected trainable weights, did you set `model.trainable` without calling `model.compile` after ?
+  'Discrepancy between trainable weights and collected trainable'
+sge_job_epilog: Removed left over scratch directory  {/scratch/2247096.1.datasci}
