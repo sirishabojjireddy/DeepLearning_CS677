@@ -1,0 +1,30 @@
+######## EPOCH = 1 ########
+Original Accuracy : 0.87
+Adverserial Accuracy : 0.8697222222222222
+Drop in Accuracy : 0.0002777777777778212
+
+
+######## EPOCH = 2 ########
+Original Accuracy : 0.87
+Adverserial Accuracy : 0.87
+Drop in Accuracy : 0.0
+
+
+######## EPOCH = 3 ########
+Original Accuracy : 0.87
+Adverserial Accuracy : 0.8694444444444445
+Drop in Accuracy : 0.0005555555555555314
+
+
+######## EPOCH = 4 ########
+Original Accuracy : 0.87
+Adverserial Accuracy : 0.87
+Drop in Accuracy : 0.0
+
+
+######## EPOCH = 5 ########
+Original Accuracy : 0.87
+Adverserial Accuracy : 0.8694444444444445
+Drop in Accuracy : 0.0005555555555555314
+
+
