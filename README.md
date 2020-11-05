@@ -47,5 +47,5 @@ Learn a word2vec model from fake news dataset and a real news dataset, make use 
 2. Trump
 3. Obama
 4. Immigration
-First normalize all vector representations (set them to Euclidean length 1). Consider the vector x for a given word w. We compare the cosine similarity between x and the vectors x' for each word w' in the fake news dataset first. We then output the top 5 words with highest similarity. We then do the same for the real news and then see if the top similar words differ considerably. Take two inputs: the text dataset on which to learn the words and a model file name to save the word2vec model to.
-Are the most similar words to the queries considerably different from the fake and real news datasets? 
+
+First normalize all vector representations (set them to Euclidean length. Consider the vector x for a given word w. We compare the cosine similarity between x and the vectors x' for each word w' in the fake news dataset first. We then output the top 5 words with highest similarity. We then do the same for the real news and then see if the top similar words differ considerably. Take two inputs: the text dataset on which to learn the words and a model file name to save the word2vec model to. Are the most similar words to the queries considerably different from the fake and real news datasets? 
