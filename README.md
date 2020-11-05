@@ -54,16 +54,22 @@ First normalize all vector representations (set them to Euclidean length. Consid
 Commands for using NJIT AFS Kong HPC:
 
 module load …
+
 make
+
 qsub sgescript
+
 qstat
+
 qstat -q datasci -f
+
 qlogin -q datasci -l hostname=node415
+
 KERAS_BACKEND=tensorflow
 
 
 Commands for using NJIT AFS lochness HPC:
 
-Lochness
 sbatch script.sh
+
 squeue -u ucid
