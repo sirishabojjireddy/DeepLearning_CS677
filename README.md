@@ -50,7 +50,9 @@ Learn a word2vec model from fake news dataset and a real news dataset, make use 
 
 First normalize all vector representations (set them to Euclidean length. Consider the vector x for a given word w. We compare the cosine similarity between x and the vectors x' for each word w' in the fake news dataset first. We then output the top 5 words with highest similarity. We then do the same for the real news and then see if the top similar words differ considerably. Take two inputs: the text dataset on which to learn the words and a model file name to save the word2vec model to. Are the most similar words to the queries considerably different from the fake and real news datasets? 
 
+
 Commands for using NJIT AFS Kong HPC:
+
 module load …
 make
 qsub sgescript
@@ -59,7 +61,9 @@ qstat -q datasci -f
 qlogin -q datasci -l hostname=node415
 KERAS_BACKEND=tensorflow
 
+
 Commands for using NJIT AFS lochness HPC:
+
 Lochness
 sbatch script.sh
 squeue -u ucid
